@@ -14,6 +14,8 @@
 		D974FA621EEA108900A5BF6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D974FA601EEA108900A5BF6D /* LaunchScreen.storyboard */; };
 		D974FA6A1EEA109A00A5BF6D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D974FA691EEA109A00A5BF6D /* Inceptionv3.mlmodel */; };
 		D974FA6C1EEA22D100A5BF6D /* DictionarySort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D974FA6B1EEA22D100A5BF6D /* DictionarySort.swift */; };
+		D974FA6E1EEA2E4B00A5BF6D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D974FA6D1EEA2E4B00A5BF6D /* README.md */; };
+		D974FA701EEA2E8900A5BF6D /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = D974FA6F1EEA2E8900A5BF6D /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D974FA631EEA108900A5BF6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D974FA691EEA109A00A5BF6D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../../../Desktop/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		D974FA6B1EEA22D100A5BF6D /* DictionarySort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySort.swift; sourceTree = "<group>"; };
+		D974FA6D1EEA2E4B00A5BF6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D974FA6F1EEA2E8900A5BF6D /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = ../../../../../Desktop/cat.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		D974FA4B1EEA108900A5BF6D = {
 			isa = PBXGroup;
 			children = (
+				D974FA6D1EEA2E4B00A5BF6D /* README.md */,
+				D974FA6F1EEA2E8900A5BF6D /* cat.png */,
 				D974FA561EEA108900A5BF6D /* MachineVisionExample */,
 				D974FA551EEA108900A5BF6D /* Products */,
 			);
@@ -130,6 +136,7 @@
 			files = (
 				D974FA621EEA108900A5BF6D /* LaunchScreen.storyboard in Resources */,
 				D974FA5F1EEA108900A5BF6D /* Assets.xcassets in Resources */,
+				D974FA701EEA2E8900A5BF6D /* cat.png in Resources */,
 				D974FA5D1EEA108900A5BF6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +150,7 @@
 			files = (
 				D974FA5A1EEA108900A5BF6D /* ViewController.swift in Sources */,
 				D974FA6C1EEA22D100A5BF6D /* DictionarySort.swift in Sources */,
+				D974FA6E1EEA2E4B00A5BF6D /* README.md in Sources */,
 				D974FA6A1EEA109A00A5BF6D /* Inceptionv3.mlmodel in Sources */,
 				D974FA581EEA108900A5BF6D /* AppDelegate.swift in Sources */,
 			);
