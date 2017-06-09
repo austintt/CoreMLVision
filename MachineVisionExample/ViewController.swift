@@ -33,9 +33,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
         
     func displayPredictions(request: VNRequest, error: Error?) {
+        // Make sure we have a result
         guard let results = request.results as? [VNClassificationObservation]
             else { fatalError("Bad prediction") }
+        
+        // Sort results by confidence
         results.sorted(by: {$0.confidence > $1.confidence})
+        
+        // Show prediction results
         topGuess.text = "\(results[0].identifier) - \(results[0].confidence * 100)%"
         secondGuess.text = "\(results[1].identifier) - \(results[1].confidence * 100)%"
         thirdGuess.text = "\(results[2].identifier) - \(results[2].confidence * 100)%"
